@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 void micrkernel_sendmsg(char *);
+void micrkernel_getmsg(char *);
 
 void main()	{
 	printf("Helloworld!\n");
@@ -10,4 +11,8 @@ void main()	{
 
 void micrkernel_sendmsg(char *a) {
     printf("microkernel: %s\n", a);
+}
+
+void micrkernel_getmsg(char *b) {
+    //TODO: getmsg feature
 }
